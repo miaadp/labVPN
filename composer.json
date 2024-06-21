@@ -1,0 +1,27 @@
+{
+	"name": "miaadp/labvpn",
+	"description": "A simple library to use labVpn api",
+	"keywords": [],
+	"time": "2024-06-22",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Miaad Sadeghloo",
+			"email": "miaadps@gmail.com",
+			"role": "Developer",
+			"homepage": "https://github.com/miaadp"
+		}
+	],
+	"require": {
+		"php": ">=8.0",
+		"ext-curl": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"labVPN\\": "src/"
+		}
+	},
+	"config": {
+		"classmap-authoritative": true
+	}
+}
